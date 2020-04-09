@@ -12,11 +12,16 @@
 */
 
 
+// Route::get('/', function(){
+//     $datas = [
+//         ['id' => 1, 'name' => 'omar'],
+//         ['id' => 2, 'name' => 'yassine'],
+//         ['id' => 3, 'name' => 'anas'],
+//     ];
+//     return view('welcome', compact('datas'));
+// });
+
+
 Route::get('/', function(){
-    $datas = [
-        ['id' => 1, 'name' => 'omar'],
-        ['id' => 2, 'name' => 'yassine'],
-        ['id' => 3, 'name' => 'anas'],
-    ];
-    return view('welcome', compact('datas'));
+    return view('pages.home');
 });

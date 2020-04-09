@@ -20,6 +20,11 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('slider-component', require('./components/SliderComponent.vue').default);
+Vue.component('listening-component', require('./components/ListeningComponent.vue').default);
+Vue.component('promobox-component', require('./components/PromoboxComponent.vue').default);
+Vue.component('stats-component', require('./components/StatsComponent.vue').default);
+Vue.component('testimonials-component', require('./components/TestimonialsComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
